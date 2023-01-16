@@ -1,0 +1,37 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.demo-link {
+  background-color: #020e4a;
+}
+
+.link-menu {
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.header-logo {
+    height: 60px;
+    margin-left: 120px;
+}
+
+.allcourse-button {
+    margin-left: 40px;
+    height: 70px;
+}
+
+.book-logo {
+    height: 26px;
+    width: 26px;
+}
+
+.menu {
+    width: 657px;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.menu li {
+    margin: auto;
+}
