@@ -99,6 +99,14 @@
   border: 0.5px solid #868484;
 }
 
+.alart-window {
+    display: none;
+}
+
+.blank {
+    display: none;
+}
+
 /* @media screen and (min-width: 1120px) { */
 @media screen and (min-width: 1120px) {
   .link-menu li {
@@ -230,5 +238,26 @@
 
   .course1-image > img {
     width: -webkit-fill-available !important;
+  }
+
+  .alart-window {
+    display: block;
+    }
+
+    .blank {
+        display: block;
+    }
+
+  .alart-window {    
+    position:absolute;
+    top: 610px;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em;
+    margin-left: -15em;
+    background-color: white;
+    box-shadow: 5px 10px 18px #888888;
+    text-align: center;
   }
 }
