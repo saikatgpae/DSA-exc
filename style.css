@@ -64,6 +64,7 @@
 
 .blank {
   height: 247px;
+  display: none;
 }
 
 .t-and-c {
@@ -100,14 +101,9 @@
 }
 
 .alart-window {
-    display: none;
+  display: none;
 }
 
-.blank {
-    display: none;
-}
-
-/* @media screen and (min-width: 1120px) { */
 @media screen and (min-width: 1120px) {
   .link-menu li {
     margin: 0 35px 0 35px;
@@ -240,24 +236,21 @@
     width: -webkit-fill-available !important;
   }
 
+  .blank {
+    display: block;
+  }
+
   .alart-window {
     display: block;
-    }
-
-    .blank {
-        display: block;
-    }
-
-  .alart-window {    
-    position:absolute;
+    position: absolute;
     top: 610px;
     left: 50%;
-    width:30em;
-    height:18em;
+    width: 30em;
+    height: 18em;
     margin-top: -9em;
     margin-left: -15em;
     background-color: white;
-    box-shadow: 5px 10px 18px #888888;
+    box-shadow: 5px 10px 18px #888;
     text-align: center;
   }
 }
