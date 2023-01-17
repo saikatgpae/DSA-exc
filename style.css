@@ -45,7 +45,40 @@
     border: .5px solid #B9B9B9;
 }
 
-@media screen and (min-width: 1120px) {
+.recently-placed-profile {
+    position: relative;
+    height: 100vw;
+    
+}
+
+.frame {
+    position: relative;
+    top: 70px;
+}
+
+.profile {
+    position: absolute;
+    left: 121px;
+}
+/* 
+.recetly-section-heading {
+    
+} */
+
+.recently-placed-profile {
+    display: block;
+}
+
+.blank  {
+    height: 247px;
+}
+
+.t-and-c {
+    text-align: center;
+}
+
+/* @media screen and (min-width: 1120px) { */
+@media screen and (min-width: 768px) {
     .link-menu li {
         margin: 0 35px 0 35px;
     }
@@ -118,5 +151,20 @@
     .t-and-c {
         display: flex;
         justify-content: space-around;
+    }
+
+    .recently-placed {
+        display: flex;
+        overflow-x: scroll;
+        
+    }
+
+    .recently-placed-profile {
+        height: 45vw;
+        
+    }
+
+    .profile-info {
+        position: relative;
     }
 }
