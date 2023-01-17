@@ -46,9 +46,13 @@
   border: 0.5px solid #b9b9b9;
 }
 
+.recently-placed {
+
+}
+
 .recently-placed-profile {
   position: relative;
-  height: 50vw;
+  white-space: pre-line;
   display: block;
 }
 
@@ -60,6 +64,7 @@
 .profile {
   position: absolute;
   left: 121px;
+  top: 70px;
 }
 
 .blank {
@@ -144,7 +149,6 @@
   }
 
   .footer {
-    /* position: relative; */
     padding: 65px 120px 0 120px;
   }
 
@@ -184,12 +188,17 @@
 
   .recently-placed-profile {
     margin-left: 2.5%;
+    white-space: normal;
     margin-right: 2.5%;
     height: 30vw;
   }
 
   .profile-info {
     position: relative;
+  }
+
+  .profile {
+    top: 0px;
   }
 
   .upcoming-webinars {
