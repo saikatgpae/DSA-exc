@@ -77,6 +77,27 @@
     text-align: center;
 }
 
+.upcoming1 {
+    background-image: url("./images/upcoming-back.png");
+    background-repeat: no-repeat;
+}
+
+.date1,
+.time1 {
+    border: 1px solid #CBCBCB;
+    color: #a29f9f;
+}
+
+.time1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.view-details {
+    width: -webkit-fill-available;
+    margin-top: 10px;
+}
+
 /* @media screen and (min-width: 1120px) { */
 @media screen and (min-width: 768px) {
     .link-menu li {
@@ -118,6 +139,7 @@
     }
 
     .footer {
+        /* position: relative; */
         padding: 65px 120px 0 120px;
     }
 
@@ -156,15 +178,39 @@
     .recently-placed {
         display: flex;
         overflow-x: scroll;
-        
     }
 
     .recently-placed-profile {
-        height: 45vw;
-        
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        height: 40vw;
     }
 
     .profile-info {
         position: relative;
     }
+
+    .upcoming-webinars {
+        display: flex;
+        flex-flow: row;
+        overflow-x: scroll;
+    }
+
+    .upcoming1 {
+       min-width: 500px;
+       min-height: 300px;
+    }
+
+    .upcoming2 {
+        min-width: 500px;
+        min-height: 300px;
+        border: 1px solid #8b8888;
+    }
+
+    .webinar {
+        display: flex;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    
 }
