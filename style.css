@@ -46,10 +46,6 @@
   border: 0.5px solid #b9b9b9;
 }
 
-.recently-placed {
-
-}
-
 .recently-placed-profile {
   position: relative;
   white-space: pre-line;
@@ -198,7 +194,7 @@
   }
 
   .profile {
-    top: 0px;
+    top: 0;
   }
 
   .upcoming-webinars {
