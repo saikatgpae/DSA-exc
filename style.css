@@ -190,7 +190,7 @@
   .recently-placed {
     display: flex;
     overflow-x: scroll;
-    background-color: #F9FBFE;
+    background-color: #f9fbfe;
   }
 
   .recently-placed-profile {
@@ -235,7 +235,7 @@
     display: flex;
     flex-flow: row;
     overflow-x: scroll;
-    background-color: #F9FBFE;
+    background-color: #f9fbfe;
   }
 
   .student {
@@ -247,7 +247,7 @@
     display: flex;
     flex-flow: row;
     overflow-x: scroll;
-    background-color: #F2FBFF;
+    background-color: #f2fbff;
   }
 
   .course1-image > img {
