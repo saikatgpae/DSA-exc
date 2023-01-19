@@ -1,0 +1,274 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.demo-link {
+  background-color: #020e4a;
+}
+
+.link-menu {
+  list-style-type: none;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.nav-header {
+  position: fixed;
+  width: -webkit-fill-available;
+  z-index: 1;
+}
+
+.header {
+  background-color: white;
+}
+
+.header-logo {
+  width: 80vw;
+}
+
+.menu {
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.top {
+  background-image: url("./images/Hero\ Background.png");
+  height: 207px;
+}
+
+.footer {
+  background-color: #020e4a;
+}
+
+.footer-logo {
+  width: 80vw;
+}
+
+.address {
+  font-size: 10px;
+}
+
+.address h5 {
+  font-size: 15px;
+}
+
+.foote-line {
+  border: 0.5px solid #b9b9b9;
+}
+
+.recently-placed-profile {
+  position: relative;
+  white-space: pre-line;
+  display: block;
+}
+
+.frame {
+  position: relative;
+  top: 70px;
+}
+
+.profile {
+  position: absolute;
+  left: 121px;
+  top: 70px;
+}
+
+.blank {
+  height: 247px;
+  display: none;
+}
+
+.t-and-c {
+  text-align: center;
+}
+
+.upcoming1 {
+  background-image: url("./images/upcoming-back.png");
+  background-repeat: no-repeat;
+}
+
+.date1,
+.time1 {
+  border: 1px solid #cbcbcb;
+  color: #a29f9f;
+}
+
+.time1 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.view-details {
+  width: -webkit-fill-available;
+  margin-top: 10px;
+}
+
+.checked {
+  color: #ffb701;
+}
+
+.border-div {
+  border: 0.5px solid #868484;
+}
+
+.alart-window {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .link-menu li {
+    margin: 0 35px 0 35px;
+  }
+
+  .header {
+    display: flex;
+    padding: 40px 0 40px 120px;
+  }
+
+  .logo-div {
+    display: flex;
+    justify-content: flex-start !important;
+  }
+
+  .header-logo {
+    width: 300px;
+  }
+
+  .allcourse-button {
+    width: 277px;
+    margin-left: 40px;
+    margin-right: 80px;
+    font-size: 20px;
+  }
+
+  .menu {
+    font-size: 15px;
+    width: -webkit-fill-available;
+  }
+
+  .menu li {
+    margin: auto;
+  }
+
+  .top {
+    height: 414px;
+  }
+
+  .footer {
+    padding: 65px 120px 0 120px;
+  }
+
+  .footer-logo {
+    width: 400px;
+    height: 70px;
+  }
+
+  .bsi-logo {
+    width: 200px;
+  }
+
+  .footer-logo-div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .address {
+    justify-content: space-between;
+    font-weight: 200;
+    font-size: 20px;
+  }
+
+  .address h5 {
+    font-size: 25px;
+  }
+
+  .t-and-c {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .recently-placed {
+    display: flex;
+    overflow-x: scroll;
+    background-color: #f9fbfe;
+  }
+
+  .recently-placed-profile {
+    margin-left: 2.5%;
+    white-space: normal;
+    margin-right: 2.5%;
+    height: 30vw;
+  }
+
+  .profile-info {
+    position: relative;
+  }
+
+  .profile {
+    top: 0;
+  }
+
+  .upcoming-webinars {
+    display: flex;
+    flex-flow: row;
+    overflow-x: scroll;
+  }
+
+  .upcoming1 {
+    min-width: 500px;
+    min-height: 300px;
+  }
+
+  .upcoming2 {
+    min-width: 500px;
+    min-height: 300px;
+    border: 1px solid #8b8888;
+  }
+
+  .webinar {
+    display: flex;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+
+  .reviews {
+    display: flex;
+    flex-flow: row;
+    overflow-x: scroll;
+    background-color: #f9fbfe;
+  }
+
+  .student {
+    min-width: 500px;
+    min-height: 300px;
+  }
+
+  .related-courses {
+    display: flex;
+    flex-flow: row;
+    overflow-x: scroll;
+    background-color: #f2fbff;
+  }
+
+  .course1-image > img {
+    width: -webkit-fill-available !important;
+  }
+
+  .blank {
+    display: block;
+  }
+
+  .alart-window {
+    display: block;
+    position: absolute;
+    top: 410px;
+    left: 50%;
+    width: 30em;
+    height: 18em;
+    margin-top: -9em;
+    margin-left: -15em;
+    background-color: white;
+    box-shadow: 5px 10px 18px #888;
+    text-align: center;
+  }
+}
