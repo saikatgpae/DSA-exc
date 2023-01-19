@@ -190,6 +190,7 @@
   .recently-placed {
     display: flex;
     overflow-x: scroll;
+    background-color: #F9FBFE;
   }
 
   .recently-placed-profile {
@@ -234,6 +235,7 @@
     display: flex;
     flex-flow: row;
     overflow-x: scroll;
+    background-color: #F9FBFE;
   }
 
   .student {
@@ -245,6 +247,7 @@
     display: flex;
     flex-flow: row;
     overflow-x: scroll;
+    background-color: #F2FBFF;
   }
 
   .course1-image > img {
@@ -258,7 +261,7 @@
   .alart-window {
     display: block;
     position: absolute;
-    top: 610px;
+    top: 410px;
     left: 50%;
     width: 30em;
     height: 18em;
