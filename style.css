@@ -12,6 +12,16 @@
   font-weight: 100;
 }
 
+.nav-header {
+  position: fixed;
+  width: -webkit-fill-available;
+  z-index: 1;
+}
+
+.header {
+  background-color: white;
+}
+
 .header-logo {
   width: 80vw;
 }
@@ -105,7 +115,7 @@
   display: none;
 }
 
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 768px) {
   .link-menu li {
     margin: 0 35px 0 35px;
   }
