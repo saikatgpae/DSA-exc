@@ -16,8 +16,6 @@
 
 .highlight {
   background-color: rgb(217, 245, 176);
-
-  /* border: 2px solid black; */
 }
 
 .slide {
@@ -25,9 +23,9 @@
 }
 
 .recently-placed-students {
+  padding-top: 70px;
   display: flex;
-
-  /* overflow: scroll; */
+  overflow: hidden;
   position: relative;
 }
 
@@ -63,6 +61,7 @@
 }
 
 .header {
+  width: fit-content;
   background-color: white;
 }
 
@@ -161,7 +160,39 @@
 
 .related-courses,
 .reviews {
+  overflow: hidden;
   display: flex;
+}
+
+.upcoming-webinars {
+  display: flex;
+  flex-flow: row;
+  overflow-x: scroll;
+}
+
+.webinar {
+  display: flex;
+  margin-right: 40px;
+  margin-left: 40px;
+  animation: moveWebinarSlideshow 15s linear infinite;
+}
+
+@keyframes moveWebinarSlideshow {
+  100% {
+    transform: translateX(-380%);
+  }
+}
+
+@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-500%);
+  }
+}
+
+.course1,
+.course2,
+.course3 {
+  animation: moveSlideshow 15s linear infinite;
 }
 
 @media screen and (min-width: 768px) {
@@ -174,13 +205,14 @@
   }
 
   .header {
+    width: auto;
     display: flex;
     padding: 40px 0 40px 120px;
   }
 
   .logo-div {
     display: flex;
-    justify-content: flex-start !important;
+    justify-content: flex-start;
   }
 
   .header-logo {
@@ -270,10 +302,6 @@
     position: relative;
   }
 
-  .profile {
-    /* top: 0; */
-  }
-
   .dot,
   .dot1,
   .dot2,
@@ -308,19 +336,6 @@
     border: 1px solid #8b8888;
   }
 
-  .webinar {
-    display: flex;
-    margin-right: 40px;
-    margin-left: 40px;
-    animation: moveWebinarSlideshow 15s linear infinite;
-  }
-
-  @keyframes moveWebinarSlideshow {
-    100% {
-      transform: translateX(-380%);
-    }
-  }
-
   .recently-placed-students {
     background-color: #f9fbfe;
     padding-top: 70px;
@@ -347,11 +362,6 @@
     width: -webkit-fill-available !important;
   }
 
-  .course1,
-  .course2,
-  .course3 {
-    animation: moveSlideshow 15s linear infinite;
-  }
 
   .blank {
     display: block;
