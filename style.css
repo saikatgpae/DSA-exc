@@ -15,16 +15,18 @@
 }
 
 .highlight {
-    background-color: rgb(217, 245, 176);
-    /* border: 2px solid black; */
+  background-color: rgb(217, 245, 176);
+
+  /* border: 2px solid black; */
 }
 
 .slide {
-    right: 300px;
+  right: 300px;
 }
 
 .recently-placed-students {
   display: flex;
+
   /* overflow: scroll; */
   position: relative;
 }
@@ -32,347 +34,334 @@
 .student {
   animation: moveSlideshow 15s linear infinite;
 }
+
 @keyframes moveSlideshow {
-  100% { 
-    transform: translateX(-500%);  
+  100% {
+    transform: translateX(-500%);
   }
 }
- 
 
 * {
-    font-family: 'Poppins', sans-serif;
-  }
-  
+  font-family: 'Poppins', sans-serif;
+}
+
+.demo-link {
+  width: fit-content;
+  background-color: #020e4a;
+}
+
+.link-menu {
+  list-style-type: none;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.nav-header {
+  position: fixed;
+  width: -webkit-fill-available;
+  z-index: 1;
+}
+
+.header {
+  background-color: white;
+}
+
+.header-logo {
+  width: 80vw;
+}
+
+.menu {
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.top {
+  background-image: url("./images/Hero\ Background.png");
+  height: 207px;
+}
+
+.footer {
+  background-color: #020e4a;
+}
+
+.footer-logo {
+  width: 80vw;
+}
+
+.address {
+  font-size: 10px;
+}
+
+.address h5 {
+  font-size: 15px;
+}
+
+.foote-line {
+  border: 0.5px solid #b9b9b9;
+}
+
+.recently-placed-profile {
+  position: relative;
+  white-space: pre-line;
+  display: block;
+}
+
+.frame {
+  position: relative;
+  top: 70px;
+}
+
+.profile {
+  position: absolute;
+  left: 121px;
+  top: -70px;
+}
+
+.blank {
+  height: 247px;
+  display: none;
+}
+
+.t-and-c {
+  text-align: center;
+}
+
+.upcoming1 {
+  background-image: url("./images/upcoming-back.png");
+  background-repeat: no-repeat;
+}
+
+.date1,
+.time1 {
+  border: 1px solid #cbcbcb;
+  color: #a29f9f;
+}
+
+.time1 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.view-details {
+  width: -webkit-fill-available;
+  margin-top: 10px;
+}
+
+.checked {
+  color: #ffb701;
+}
+
+.border-div {
+  border: 0.5px solid #868484;
+}
+
+.alart-window {
+  display: none;
+}
+
+.related-courses,
+.reviews {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
   .demo-link {
-    width: fit-content;
-    background-color: #020e4a;
-  }
-  
-  .link-menu {
-    list-style-type: none;
-    font-size: 15px;
-    font-weight: 100;
-  }
-  
-  .nav-header {
-    position: fixed;
     width: -webkit-fill-available;
-    z-index: 1;
   }
-  
+
+  .link-menu li {
+    margin: 0 35px 0 35px;
+  }
+
   .header {
-    background-color: white;
+    display: flex;
+    padding: 40px 0 40px 120px;
   }
-  
+
+  .logo-div {
+    display: flex;
+    justify-content: flex-start !important;
+  }
+
   .header-logo {
-    width: 80vw;
+    width: 300px;
   }
-  
+
+  .allcourse-button {
+    width: 277px;
+    margin-left: 40px;
+    margin-right: 80px;
+    font-size: 20px;
+  }
+
   .menu {
-    list-style-type: none;
+    font-size: 15px;
+    width: -webkit-fill-available;
+  }
+
+  .menu li {
+    margin: auto;
+  }
+
+  .top {
+    height: 414px;
+  }
+
+  .footer {
+    padding: 65px 120px 0 120px;
+  }
+
+  .footer-logo {
+    width: 400px;
+    height: 70px;
+  }
+
+  .bsi-logo {
+    width: 200px;
+  }
+
+  .footer-logo-div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .address {
+    justify-content: space-between;
+    font-weight: 200;
+    font-size: 20px;
+  }
+
+  .address h5 {
+    font-size: 25px;
+  }
+
+  .t-and-c {
+    display: flex;
     justify-content: space-around;
   }
-  
-  .top {
-    background-image: url("./images/Hero\ Background.png");
-    height: 207px;
-  }
-  
-  .footer {
-    background-color: #020e4a;
-  }
-  
-  .footer-logo {
-    width: 80vw;
-  }
-  
-  .address {
-    font-size: 10px;
-  }
-  
-  .address h5 {
-    font-size: 15px;
-  }
-  
-  .foote-line {
-    border: 0.5px solid #b9b9b9;
-  }
-  
-  .recently-placed-profile {
-    position: relative;
-    white-space: pre-line;
-    display: block;
-  }
-  
-  .frame {
-    position: relative;
-    top: 70px;
-  }
-  
-  .profile {
-    position: absolute;
-    left: 121px;
-    top: -70px;
-  }
-  
-  .blank {
-    height: 247px;
-    display: none;
-  }
-  
-  .t-and-c {
-    text-align: center;
-  }
-  
-  .upcoming1 {
-    background-image: url("./images/upcoming-back.png");
-    background-repeat: no-repeat;
-  }
-  
-  .date1,
-  .time1 {
-    border: 1px solid #cbcbcb;
-    color: #a29f9f;
-  }
-  
-  .time1 {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  
-  .view-details {
-    width: -webkit-fill-available;
-    margin-top: 10px;
-  }
-  
-  .checked {
-    color: #ffb701;
-  }
-  
-  .border-div {
-    border: 0.5px solid #868484;
-  }
-  
-  .alart-window {
-    display: none;
+
+  .recently-placed {
+    display: flex;
+    overflow-x: scroll;
+    background-color: #f9fbfe;
+    animation: moveSlideshow 10s linear infinite;
   }
 
-  .related-courses,
+  .recently-placed-students {
+    background-color: #f9fbfe;
+    padding-top: 70px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .student {
+    min-width: 500px;
+    min-height: 300px;
+    animation: moveSlideshow 15s linear infinite;
+  }
+
+  @keyframes moveSlideshow {
+    100% {
+      transform: translateX(-500%);
+    }
+  }
+
+  .recently-placed-profile {
+    margin-left: 2.5%;
+    white-space: normal;
+    margin-right: 2.5%;
+    height: 30vw;
+  }
+
+  .profile-info {
+    position: relative;
+  }
+
+  .profile {
+    /* top: 0; */
+  }
+
+  .dot,
+  .dot1,
+  .dot2,
+  .dot3 {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active {
+    background-color: #717171;
+  }
+
+  .upcoming-webinars {
+    display: flex;
+    flex-flow: row;
+    overflow-x: scroll;
+  }
+
+  .upcoming1 {
+    min-width: 500px;
+    min-height: 300px;
+  }
+
+  .upcoming2 {
+    min-width: 500px;
+    min-height: 300px;
+    border: 1px solid #8b8888;
+  }
+
+  .webinar {
+    display: flex;
+    margin-right: 40px;
+    margin-left: 40px;
+    animation: moveSlideshow 30s linear infinite;
+  }
+
   .reviews {
     display: flex;
+    flex-flow: row;
+    overflow-x: scroll;
+    background-color: #f9fbfe;
   }
-  
-  @media screen and (min-width: 768px) {
-    .demo-link {
-      width: -webkit-fill-available;
-    }
-    .link-menu li {
-      margin: 0 35px 0 35px;
-    }
-  
-    .header {
-      display: flex;
-      padding: 40px 0 40px 120px;
-    }
-  
-    .logo-div {
-      display: flex;
-      justify-content: flex-start !important;
-    }
-  
-    .header-logo {
-      width: 300px;
-    }
-  
-    .allcourse-button {
-      width: 277px;
-      margin-left: 40px;
-      margin-right: 80px;
-      font-size: 20px;
-    }
-  
-    .menu {
-      font-size: 15px;
-      width: -webkit-fill-available;
-    }
-  
-    .menu li {
-      margin: auto;
-    }
-  
-    .top {
-      height: 414px;
-    }
-  
-    .footer {
-      padding: 65px 120px 0 120px;
-    }
-  
-    .footer-logo {
-      width: 400px;
-      height: 70px;
-    }
-  
-    .bsi-logo {
-      width: 200px;
-    }
-  
-    .footer-logo-div {
-      display: flex;
-      justify-content: space-between;
-    }
-  
-    .address {
-      justify-content: space-between;
-      font-weight: 200;
-      font-size: 20px;
-    }
-  
-    .address h5 {
-      font-size: 25px;
-    }
-  
-    .t-and-c {
-      display: flex;
-      justify-content: space-around;
-    }
-  
-    .recently-placed {
-      display: flex;
-      overflow-x: scroll;
-      background-color: #f9fbfe;
-      animation: moveSlideshow 10s linear infinite;
-    }
 
-    .recently-placed-students {
-      background-color: #F9FBFE;
-      padding-top: 70px;
-      display: flex;
-      overflow: hidden;
-      position: relative;
-    }
-
-    .student {
-      animation: moveSlideshow 15s linear infinite;
-    }
-    @keyframes moveSlideshow {
-      100% { 
-        transform: translateX(-500%);  
-      }
-    }
-  
-    .recently-placed-profile {
-      margin-left: 2.5%;
-      white-space: normal;
-      margin-right: 2.5%;
-      height: 30vw;
-    }
-  
-    .profile-info {
-      position: relative;
-    }
-  
-    .profile {
-      /* top: 0; */
-    }
-  
-    .dot,
-    .dot1,
-    .dot2,
-    .dot3 {
-      height: 15px;
-      width: 15px;
-      margin: 0 2px;
-      background-color: #bbb;
-      border-radius: 50%;
-      display: inline-block;
-      transition: background-color 0.6s ease;
-    }
-    
-    .active {
-      background-color: #717171;
-    }
-  
-    .upcoming-webinars {
-      display: flex;
-      flex-flow: row;
-      overflow-x: scroll;
-    }
-  
-    .upcoming1 {
-      min-width: 500px;
-      min-height: 300px;
-    }
-  
-    .upcoming2 {
-      min-width: 500px;
-      min-height: 300px;
-      border: 1px solid #8b8888;
-    }
-  
-    .webinar {
-      display: flex;
-      margin-right: 40px;
-      margin-left: 40px;
-      animation: moveSlideshow 30s linear infinite;
-    }
-
-
-    .recently-placed-students {
-      background-color: #F9FBFE;
-      padding-top: 70px;
-      display: flex;
-      overflow: hidden;
-      position: relative;
-    }
-
-
-  
-    .reviews {
-      display: flex;
-      flex-flow: row;
-      overflow-x: scroll;
-      background-color: #f9fbfe;
-    }
-  
-    .student {
-      min-width: 500px;
-      min-height: 300px;
-    }
-  
-    .related-courses {
-      display: flex;
-      flex-flow: row;
-      overflow-x: scroll;
-      background-color: #f2fbff;
-    }
-  
-    .course1-image > img {
-      width: -webkit-fill-available !important;
-    }
-
-    .course1,
-    .course2,
-    .course3 {
-      animation: moveSlideshow 15s linear infinite;
-    }
-  
-    .blank {
-      display: block;
-    }
-  
-    .alart-window {
-      display: block;
-      position: absolute;
-      top: 410px;
-      left: 50%;
-      width: 30em;
-      height: 18em;
-      margin-top: -9em;
-      margin-left: -15em;
-      background-color: white;
-      box-shadow: 5px 10px 18px #888;
-      text-align: center;
-    }
+  .related-courses {
+    display: flex;
+    flex-flow: row;
+    overflow-x: scroll;
+    background-color: #f2fbff;
   }
-  
+
+  .course1-image > img {
+    width: -webkit-fill-available !important;
+  }
+
+  .course1,
+  .course2,
+  .course3 {
+    animation: moveSlideshow 15s linear infinite;
+  }
+
+  .blank {
+    display: block;
+  }
+
+  .alart-window {
+    display: block;
+    position: absolute;
+    top: 410px;
+    left: 50%;
+    width: 30em;
+    height: 18em;
+    margin-top: -9em;
+    margin-left: -15em;
+    background-color: white;
+    box-shadow: 5px 10px 18px #888;
+    text-align: center;
+  }
+}
