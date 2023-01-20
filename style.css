@@ -247,14 +247,6 @@
     animation: moveSlideshow 10s linear infinite;
   }
 
-  .recently-placed-students {
-    background-color: #f9fbfe;
-    padding-top: 70px;
-    display: flex;
-    overflow: hidden;
-    position: relative;
-  }
-
   .student {
     min-width: 500px;
     min-height: 300px;
@@ -320,7 +312,21 @@
     display: flex;
     margin-right: 40px;
     margin-left: 40px;
-    animation: moveSlideshow 30s linear infinite;
+    animation: moveWebinarSlideshow 15s linear infinite;
+  }
+
+  @keyframes moveWebinarSlideshow {
+    100% {
+      transform: translateX(-380%);
+    }
+  }
+
+  .recently-placed-students {
+    background-color: #f9fbfe;
+    padding-top: 70px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
   }
 
   .reviews {
